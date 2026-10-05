@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2f6f86">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_MX">
+  <meta property="og:title" content="Tejidos Yaret · Amigurumis hechos a mano">
+  <meta property="og:description" content="Muñequitos de crochet hechos a mano. Pedidos personalizados por WhatsApp.">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Tejidos Yaret · Amigurumis hechos a mano</title>
+  <meta name="description" content="Muñequitos de crochet (amigurumis) hechos a mano. Pedidos personalizados por WhatsApp.">
+  <script>
+    document.documentElement.classList.add('js','loading');
+    /* Red de seguridad: si script.js falla, la pantalla de carga igual se va */
+    setTimeout(function () {
+      document.documentElement.classList.remove('loading');
+      var l = document.getElementById('loader'); if (l) l.classList.add('done');
+      Array.prototype.forEach.call(document.querySelectorAll('.reveal'), function (el) { el.classList.add('in'); });
+    }, 8000);
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Pantalla de carga: ovillo rodando sobre su hilo -->
+  <div class="loader" id="loader" role="status" aria-live="polite">
+    <div class="roll">
+      <span class="yarn"></span>
+      <span class="ground"></span>
+    </div>
+    <p class="loading-text">Cargando<span>.</span><span>.</span><span>.</span></p>
+    <p class="loading-brand">Tejidos Yaret</p>
+  </div>
+
+  <div class="progress" id="progress"></div>
+
+  <div class="floaties" aria-hidden="true">
+    <span class="ball b1"></span><span class="ball b2"></span><span class="ball b3"></span>
+    <span class="ball b4"></span><span class="ball b5"></span>
+  </div>
+
+  <header class="nav" id="nav">
+    <a href="#inicio" class="logo">
+      <svg viewBox="0 0 32 32" width="30" height="30" aria-hidden="true"><circle cx="16" cy="16" r="14" fill="#3d7f95"/><path d="M5 12c8 4 14 4 22 0M4 18c9 4 15 4 24 0M8 7c6 6 10 12 9 21" stroke="#fffaf0" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+      Tejidos Yaret
+    </a>
+    <nav aria-label="Principal">
+      <a class="nl" href="#creaciones">Creaciones</a>
+      <a class="nl" href="#proceso">Proceso</a>
+      <a class="nl" href="#opiniones">Opiniones</a>
+      <a class="btn btn-small" href="#contacto">Pedir</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO: texto + CTA primero (arriba del pliegue en móvil), osito después -->
+    <section class="hero" id="inicio">
+      <div class="hero-text">
+        <p class="script reveal">hecho a mano, puntada a puntada</p>
+        <h1 class="reveal">Muñequitos de <span class="wavy">crochet</span> que abrazan</h1>
+        <p class="lead reveal">Amigurumis únicos, suaves y con personalidad. Para regalar, coleccionar o consentirte.</p>
+        <div class="cta reveal">
+          <a class="btn" href="https://wa.me/50761756694?text=Hola%2C%20quiero%20pedirte%20una%20creaci%C3%B3n%20de%20crochet" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+          <a class="btn btn-ghost" href="#creaciones">Ver creaciones</a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal" id="heroArt">
+        <svg viewBox="0 0 300 320" class="bear" role="img" aria-label="Osito de crochet con moñito">
+          <g class="stitch">
+            <circle cx="90" cy="80" r="34" fill="#b8692f"/>
+            <circle cx="210" cy="80" r="34" fill="#b8692f"/>
+            <circle cx="90" cy="80" r="16" fill="#fbead2"/>
+            <circle cx="210" cy="80" r="16" fill="#fbead2"/>
+            <ellipse cx="150" cy="245" rx="75" ry="68" fill="#b8692f"/>
+            <ellipse cx="150" cy="255" rx="42" ry="42" fill="#fbead2"/>
+            <ellipse class="arm l" cx="78" cy="235" rx="22" ry="34" fill="#b8692f"/>
+            <ellipse class="arm r" cx="222" cy="235" rx="22" ry="34" fill="#b8692f"/>
+            <circle cx="150" cy="130" r="80" fill="#b8692f"/>
+            <ellipse cx="150" cy="155" rx="36" ry="28" fill="#fbead2"/>
+          </g>
+          <g class="eyes"><circle cx="122" cy="125" r="8" fill="#3b2218"/><circle cx="178" cy="125" r="8" fill="#3b2218"/></g>
+          <ellipse cx="150" cy="145" rx="11" ry="8" fill="#3b2218"/>
+          <path d="M138 160 Q150 172 162 160" stroke="#3b2218" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <circle cx="106" cy="148" r="9" fill="#e88b8b" opacity=".6"/>
+          <circle cx="194" cy="148" r="9" fill="#e88b8b" opacity=".6"/>
+          <g class="bow">
+            <path d="M150 205 L120 190 L120 220 Z M150 205 L180 190 L180 220 Z" fill="#3d7f95"/>
+            <circle cx="150" cy="205" r="9" fill="#2c6176"/>
+          </g>
+        </svg>
+        <span class="heart h1">♥</span><span class="heart h2">♥</span><span class="heart h3">♥</span>
+      </div>
+    </section>
+
+    <!-- Cinta: × = punto bajo, ○ = cadeneta (símbolos de patrones de crochet) -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Hecho a mano</span><span>Amigurumis</span><span>Pedidos personalizados</span><span>Ideal para regalar</span><span>Con mucho cariño</span>
+        <span>Hecho a mano</span><span>Amigurumis</span><span>Pedidos personalizados</span><span>Ideal para regalar</span><span>Con mucho cariño</span>
+      </div>
+    </div>
+
+    <section class="section" id="creaciones">
+      <p class="script reveal">lo que sale de mis agujas</p>
+      <h2 class="reveal">Creaciones</h2>
+      <div class="grid cards">
+        <article class="card reveal" style="--c:#fbe3c4"><img class="tile" src="imagenes/pulpitos-llavero-canasta.jpeg" alt="Dos pulpitos de felpa blanca con llavero dorado dentro de una canasta de mimbre" width="960" height="1280" loading="lazy" style="object-position:50% 30%"><h3>Pulpitos llavero</h3><p>De felpa suave, para llevar a todos lados.</p></article>
+        <article class="card reveal" style="--c:#cfe4ea"><img class="tile" src="imagenes/conejito-rosa-gorrito.jpeg" alt="Muñeco de crochet sentado con gorrito rosa de conejito" width="960" height="1280" loading="lazy" style="object-position:50% 55%"><h3>Conejito con gorrito</h3><p>Se quita el gorrito de orejas largas.</p></article>
+        <article class="card reveal" style="--c:#fbe9a6"><img class="tile" src="imagenes/pulpitos-chenilla-amarillo-blanco.jpeg" alt="Dos pulpitos de chenilla, uno amarillo y otro blanco, sobre hilo de chenilla" width="1280" height="960" loading="lazy"><h3>Pulpitos de chenilla</h3><p>En amarillo, blanco y los colores que quieras.</p></article>
+        <article class="card reveal" style="--c:#f1c9a5"><img class="tile" src="imagenes/conejito-rosa-llavero-regalo.jpeg" alt="Conejito rosa de crochet con llavero, en bolsita de regalo con papel picado y una paleta" width="960" height="1280" loading="lazy" style="object-position:50% 65%"><h3>Conejito de regalo</h3><p>Llavero en bolsita con detalle dulce.</p></article>
+        <article class="card reveal" style="--c:#bcd9e2"><img class="tile" src="imagenes/pulpitos-empaque-regalo.jpeg" alt="Dos pulpitos blancos de felpa en empaque de regalo con papel picado azul" width="960" height="1280" loading="lazy" style="object-position:50% 45%"><h3>Listos para regalar</h3><p>Los empaco con papel picado y paleta.</p></article>
+        <article class="card reveal" style="--c:#f6d96b"><img class="tile" src="imagenes/tapete-circular-naranja.jpeg" alt="Tapete circular tejido a crochet en naranja, amarillo y café" width="1280" height="960" loading="lazy"><h3>Tapetes y posavasos</h3><p>Tejidos en espiral, en tus colores.</p></article>
+      </div>
+    </section>
+
+    <!-- Secuencia real: así empieza y termina un amigurumi -->
+    <section class="section alt" id="proceso">
+      <p class="script reveal">así se teje y así se pide</p>
+      <h2 class="reveal">Del aro mágico a tus brazos</h2>
+      <ol class="steps">
+        <li class="reveal"><span class="n">1</span><div><h3>Aro mágico</h3><p>Me escribes por WhatsApp y empezamos con tu idea.</p></div></li>
+        <li class="reveal"><span class="n">2</span><div><h3>Cadeneta</h3><p>Elegimos colores, tamaño y detalles juntos.</p></div></li>
+        <li class="reveal"><span class="n">3</span><div><h3>Punto bajo</h3><p>Lo tejo vuelta por vuelta, con relleno suave.</p></div></li>
+        <li class="reveal"><span class="n">4</span><div><h3>Remate</h3><p>Cierro, remato y te lo envío listo para abrazar.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="stats">
+      <div class="reveal"><b data-count="250">0</b><small>muñequitos tejidos</small></div>
+      <div class="reveal"><b data-count="120">0</b><small>clientes felices</small></div>
+      <div class="reveal"><b data-count="100">0</b><small>% hecho a mano</small></div>
+    </section>
+
+    <section class="section" id="opiniones">
+      <p class="script reveal">lo que dicen</p>
+      <h2 class="reveal">Opiniones</h2>
+      <div class="quotes" tabindex="0" aria-label="Opiniones, desliza para ver más">
+        <blockquote class="reveal"><p>Quedó idéntico a mi perrito. Lloré de la emoción.</p><cite>Mariana</cite></blockquote>
+        <blockquote class="reveal"><p>El regalo perfecto, mi sobrina no lo suelta.</p><cite>Carlos</cite></blockquote>
+        <blockquote class="reveal"><p>Súper detallista y rápida. 100% recomendada.</p><cite>Sofía</cite></blockquote>
+      </div>
+    </section>
+
+    <section class="contact" id="contacto">
+      <h2 class="reveal">¿Hacemos tu muñequito?</h2>
+      <p class="reveal">Escríbeme y te respondo en un ratito.</p>
+      <a class="btn btn-light reveal" href="https://wa.me/50761756694?text=Hola%2C%20quiero%20pedirte%20una%20creaci%C3%B3n%20de%20crochet" target="_blank" rel="noopener">Chatear por WhatsApp</a>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Tejidos Yaret · Tejido con amor</footer>
+
+  <a class="wa-float" id="waFloat" href="https://wa.me/50761756694?text=Hola%2C%20quiero%20pedirte%20una%20creaci%C3%B3n%20de%20crochet" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg viewBox="0 0 24 24" width="28" height="28" fill="#fff" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    <span>Pedir</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
